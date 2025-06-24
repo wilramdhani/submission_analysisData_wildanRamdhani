@@ -8,8 +8,7 @@
    ```
 2. **Jalankan Dashboard dengan Streamlit**
    ```bash
-   cd dashboard
-   streamlit run dashboard.py
+   streamlit run dashboard/dashboard.py
    ```
 
 ## Penjelasan Teknik Analisis Lanjutan

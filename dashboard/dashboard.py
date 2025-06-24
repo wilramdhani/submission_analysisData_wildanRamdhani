@@ -9,7 +9,7 @@ import streamlit as st
 @st.cache_data
 def load_data():
     try:
-        hour_data = pd.read_csv('hour.csv')
+        hour_data = pd.read_csv('data/hour.csv')
         hour_data['dteday'] = pd.to_datetime(hour_data['dteday'])
         hour_data['year'] = hour_data['dteday'].dt.year
         hour_data['month'] = hour_data['dteday'].dt.month
